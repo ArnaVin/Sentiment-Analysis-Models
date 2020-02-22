@@ -73,8 +73,6 @@ wordF5K = open("pickled_stuff/wordF5K.pickle","rb")
 word_features = pickle.load(wordF5K)
 wordF5K.close()
 
-
-
 def find_features(document):
     words = word_tokenize(document)
     features = {}
